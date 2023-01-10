@@ -1,0 +1,27 @@
+extends ./layout/index
+
+block contenido
+    main.container.mt-5 
+        .row 
+            .col-md-5 
+                img(src="img/nosotros.jpg", alt="imagen sobre nosotros", class="img-fluid")
+            .col-md-7
+                h1 #{pagina}
+                blockquote Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum consequat, erat non blandit scelerisque, velit metus maximus est, sit amet faucibus ligula elit vel odio. Fusce ullamcorper leo mattis enim scelerisque tempus. Pellentesque lorem erat, scelerisque ac velit nec, porta blandit dolor. Ut ornare consectetur ante sit amet pretium. Donec at pharetra lorem. In felis dui, tempor id aliquet ut, sollicitudin rhoncus dui. Sed mollis, metus eget auctor laoreet, sem tellus placerat erat, sit amet ultricies purus ligula finibus turpis. In hendrerit sapien id eros pulvinar lobortis. Donec urna felis, hendrerit eu felis id, finibus accumsan dolor. Vestibulum fermentum odio quis dui accumsan maximus. Donec a leo ut nulla vulputate iaculis nec sed elit. Proin ipsum purus, viverra vitae ante a, rhoncus cursus est. Praesent scelerisque pretium ligula, vitae elementum dolor placerat eu. Fusce mauris augue, convallis non risus eget, rhoncus posuere felis.
+                p Donec vehicula facilisis lobortis. Phasellus posuere orci sit amet interdum ultrices. Morbi at dui eget tortor facilisis maximus et sed turpis. Morbi eu tincidunt nisi. Donec porttitor enim ullamcorper, luctus lectus ac, volutpat arcu. Mauris eros diam, blandit vitae fermentum vitae, consequat ac mi. Duis varius risus nulla, non sodales dolor suscipit a. Sed ut quam ligula. Cras mauris massa, imperdiet quis sollicitudin eget, ultrices sit amet mauris. Nunc aliquet congue auctor. Duis sodales sapien eget sapien facilisis mattis. Praesent hendrerit sapien eget lorem bibendum imperdiet.
+                p Ut vel maximus metus. Cras luctus diam ac interdum vulputate. Aliquam ut purus commodo, euismod nibh et, gravida ipsum. Nam hendrerit urna eu elit blandit, ac laoreet ligula elementum. Vestibulum vulputate consectetur fringilla. Morbi ac egestas eros. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur tempor ipsum urna, at venenatis felis interdum vel. Proin ut mauris quis felis lacinia convallis. Quisque sed massa dolor. Integer at tortor a lectus volutpat semper. Mauris ultrices purus a leo auctor volutpat sed ut velit.
+    .listado-iconos 
+        .container.mt-5.py-5.text-center 
+            .row 
+                .col-md-4 
+                    img(src="img/icono_seguridad.svg", alt="icono seguridad", class="img-fluid mb-4")
+                    h2.mb-4 Seguridad 
+                    p Ut vel maximus metus. Cras luctus diam ac interdum vulputate. Aliquam ut purus commodo, euismod nibh et, gravida ipsum.
+                .col-md-4 
+                    img(src="img/icono_destinos.svg", alt="icono destinos", class="img-fluid mb-4")
+                    h2.mb-4 Mejores Destinos 
+                    p Ut vel maximus metus. Cras luctus diam ac interdum vulputate. Aliquam ut purus commodo, euismod nibh et, gravida ipsum.
+                .col-md-4 
+                    img(src="img/icono_precios.svg", alt="icono precios", class="img-fluid mb-4")
+                    h2.mb-4 Los Mejores Precios 
+                    p Ut vel maximus metus. Cras luctus diam ac interdum vulputate. Aliquam ut purus commodo, euismod nibh et, gravida ipsum.
