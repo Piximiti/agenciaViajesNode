@@ -30,6 +30,4 @@ app.use(express.static('public'))
 //Agregar el router
 app.use('/', router);
 
-app.listen(port, () => {
-    console.log(`server running on port ${PORT}`)
-});
+app.listen(PORT);
